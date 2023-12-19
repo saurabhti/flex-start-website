@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/45ef503d26.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link rel="icon" href="/images/logo.png">
+    <title>FlexStart</title>
+</head>
+<body>
+    <header class="header">
+        <h1>FlexStart</h1>
+        <ul class="navigation">
+           <a href="#"><li class="active list-item">Home</li></a>
+            <a href="#about"><li class="list-item">About</li></a>
+            <a href="#our-values"><li class="list-item">Our Values</li></a>
+            <a href="#features"><li class="list-item">Features</li></a>
+            <a href="#services"><li class="list-item">Services</li></a>
+            <a href="#contact-us"><li class="list-item">Contact</li></a>
+        </ul>
+        <p class="hamburger" onclick="hamburger()">&#9776;</p>
+    </header>
+
+    <main>
+        <section class="hero-banner object-center">
+            <div class="hero-content object-center">
+                <div class="hero-text">
+                    <h2>We offer modern solutions for growing your business</h2>
+                    <h3>We are team of talented designers making websites with Bootstrap</h3>
+                </div>
+                <div class="hero-image">
+                    <img src="images/hero-img.png" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class=" who-we-are object-center scroll">
+            <div class="about object-center">
+                <div class="about-text">
+                    <h4>WHO WE ARE</h4>
+                    <h2>Expedita voluptas omnis cupiditate totam eveniet nobis sint iste. Dolores est repellat corrupti reprehenderit.</h2>
+                    <p>Quisquam vel ut sint cum eos hic dolores aperiam. Sed deserunt et. Inventore et et dolor consequatur itaque ut voluptate sed et. Magnam nam ipsum tenetur suscipit voluptatum nam et est corrupti.</p>
+                    <button>Read More</button>
+                </div>
+                <div class="about-image">
+                    <img src="images/about.jpeg">
+                </div>
+            </div>
+        </section>
+
+        <section id="our-values" class="our-values scroll">
+            <div class="common-head">
+                <h3>Our Values</h3>
+                <h2>Odit est perspiciatis laborum et dicta</h2>
+            </div>
+            <div class="object-center">
+                <div class="cards-container object-center">
+                    <div class="cards">
+                        <div class="card-head">
+                            <img src="images/values-1.png">
+                            <h2>Ad cupiditate sed est odio</h2>
+                        </div>
+                        <div class="card-desc">
+                            <p>Eum ad dolor et. Autem aut fugiat debitis voluptatem consequuntur sit. Et veritatis id.</p>
+                        </div>
+                    </div>
+                    <div class="cards">
+                        <div class="card-head">
+                            <img src="images/values-2.png">
+                            <h2>Voluptatem voluptatum alias</h2>
+                        </div>
+                        <div class="card-desc">
+                            <p>Repudiandae amet nihil natus in distinctio suscipit id. Doloremque ducimus ea sit non.</p>
+                        </div>
+                    </div>
+                    <div class="cards">
+                        <div class="card-head">
+                            <img src="images/values-3.png">
+                            <h2>Fugit cupiditate alias nobis.</h2>
+                        </div>
+                        <div class="card-desc">
+                            <p>Quam rem vitae est autem molestias explicabo debitis sint. Vero aliquid quidem commodi.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="object-center"> 
+            <div class="happy-clients">
+                <div class="smile">
+                    <i class="fa-solid fa-face-smile"></i>
+                    <h5>Happy Clients</h5>
+                </div>
+                <div class="projects">
+                    <i class="fa-solid fa-book"></i>
+                    <h5>Projects</h5>
+                </div>
+                <div class="headphone">
+                    <i class="fa-solid fa-headphones"></i>
+                    <h5>Hours Of Support</h5>
+                </div>
+                <div class="people">
+                    <i class="fa-solid fa-user-group"></i>
+                    <h5>Hard Workers</h5>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="features scroll">
+            <div class="common-head">
+                <h3>Features</h3>
+                <h2>Laboriosam et omnis fuga quis dolor direda fara</h2>
+            </div>
+            <div class="object-center">
+                <div class="feature-box">
+                    <div class="feature-image">
+                        <img src="images/features.png">
+                    </div>
+                    <div class="feature-flags">
+                        <h3>Eos aspernatur rem</h3>
+                        <h3>Volup amet voluptas</h3>
+                        <h3>Facilis neque ipsa</h3>
+                        <h3>Eos aspernatur rem</h3>
+                        <h3>Volup amet voluptas</h3>
+                        <h3>Facilis neque ipsa</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="object-center">
+                <div class="feature-box2">
+                    <div class="feature-text">
+                        <h2>Neque officiis dolore maiores et exercitationem quae est seda lidera pat claero</h2>
+                        <div class="changing-text">
+                            <button onclick="changingText1()" id="text1" class="text1 button-focus">SAEPE FUGA</button>
+                            <button onclick="changingText2()" id="text2" class="text2">VOLUPTATES</button>
+                            <button onclick="changingText3()" id="text3" class="text3">CORRUPTI</button>
+                        </div>
+                        <div id="text1-hide" class="text-hide">
+                            <p>1Consequuntur inventore voluptates consequatur aut vel et. Eos doloribus expedita. Sapiente atque consequatur minima nihil quae aspernatur quo suscipit voluptatem.</p>
+                            <h4>Incidunt non veritatis illum ea ut nisi</h4>
+                            <p>Laborum omnis voluptates voluptas qui sit aliquam blanditiis. Sapiente minima commodi dolorum non eveniet magni quaerat nemo et.</p>
+                            <h4>Repudiandae rerum velit modi et officia quasi facilis</h4>
+                            <p>Non quod totam minus repellendus autem sint velit. Rerum debitis facere soluta tenetur. Iure molestiae assumenda sunt qui inventore eligendi voluptates nisi at. Dolorem quo tempora. Quia et perferendis.</p>
+                        </div>
+                        <div id="text2-hide" class="text2-hide text-hide">
+                            <p>2Consequuntur inventore voluptates consequatur aut vel et. Eos doloribus expedita. Sapiente atque consequatur minima nihil quae aspernatur quo suscipit voluptatem.</p>
+                            <h4>Repudiandae rerum velit modi et officia quasi facilis</h4>
+                            <p>Laborum omnis voluptates voluptas qui sit aliquam blanditiis. Sapiente minima commodi dolorum non eveniet magni quaerat nemo et.</p>
+                            <h4>Incidunt non veritatis illum ea ut nisi</h4>
+                            <p>Non quod totam minus repellendus autem sint velit. Rerum debitis facere soluta tenetur. Iure molestiae assumenda sunt qui inventore eligendi voluptates nisi at. Dolorem quo tempora. Quia et perferendis.</p>
+                        </div>
+                        <div  id="text3-hide" class="text3-hide text-hide">
+                            <p>3Consequuntur inventore voluptates consequatur aut vel et. Eos doloribus expedita. Sapiente atque consequatur minima nihil quae aspernatur quo suscipit voluptatem.</p>
+                            <h4>Incidunt non veritatis illum ea ut nisi</h4>
+                            <p>Laborum omnis voluptates voluptas qui sit aliquam blanditiis. Sapiente minima commodi dolorum non eveniet magni quaerat nemo et.</p>
+                            <h4>Incidunt non veritatis illum ea ut nisi</h4>
+                            <p>Non quod totam minus repellendus autem sint velit. Rerum debitis facere soluta tenetur. Iure molestiae assumenda sunt qui inventore eligendi voluptates nisi at. Dolorem quo tempora. Quia et perferendis.</p>
+                        </div>
+                    </div>
+                    <div class="feature-image2">
+                        <img src="images/features-2.png">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="scroll">
+            <div class="common-head">
+                <h3>Services</h3>
+                <h2>Veritatis et dolores facere numquam et praesentium</h2>
+            </div>
+            <div class="object-center">
+                <div class="services-container">
+                    <div class="services-cards">
+                        <div class="card-header">
+                            <span class="fa-twitch"></span>
+                            <h2>Nesciunt Mete</h2>
+                        </div>
+                        <div class="card-footer">
+                            <h5>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</h5>
+                            <p>Read More &#x2192;</p>
+                        </div>
+                    </div>
+                    <div class="services-cards">
+                        <div class="card-header">
+                            <span class="fa-twitch"></span>
+                            <h2>Nesciunt Mete</h2>
+                        </div>
+                        <div class="card-footer">
+                            <h5>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</h5>
+                            <p>Read More &#x2192;</p>
+                        </div>
+                    </div>
+                    <div class="services-cards">
+                        <div class="card-header">
+                            <span class="fa-twitch"></span>
+                            <h2>Nesciunt Mete</h2>
+                        </div>
+                        <div class="card-footer">
+                            <h5>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</h5>
+                            <p>Read More &#x2192;</p>
+                        </div>
+                    </div>
+                    <div class="services-cards">
+                        <div class="card-header">
+                            <span class="fa-twitch"></span>
+                            <h2>Nesciunt Mete</h2>
+                        </div>
+                        <div class="card-footer">
+                            <h5>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</h5>
+                            <p>Read More &#x2192;</p>
+                        </div>
+                    </div>
+                    <div class="services-cards">
+                        <div class="card-header">
+                            <span class="fa-twitch"></span>
+                            <h2>Nesciunt Mete</h2>
+                        </div>
+                        <div class="card-footer">
+                            <h5>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</h5>
+                            <p>Read More &#x2192;</p>
+                        </div>
+                    </div>
+                    <div class="services-cards">
+                        <div class="card-header">
+                            <span class="fa-twitch"></span>
+                            <h2>Nesciunt Mete</h2>
+                        </div>
+                        <div class="card-footer">
+                            <h5>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</h5>
+                            <p>Read More &#x2192;</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact-us" class="scroll">
+            <div class="common-head">
+                <h3>Contact</h3>
+                <h2>Contact Us</h2>
+            </div>
+            <div class="object-center">
+                <div class="contact-container">
+                    <div class="contact-details">
+                        <div class="details">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <h2>Address</h2>
+                            <h5>A108 Adam Street,</h5>
+                            <h5>New York, NY 535022</h5>
+                        </div>
+                        <div class="details">
+                            <i class="fa-solid fa-phone"></i>
+                            <h2>Call Us</h2>
+                            <h5>+1 5589 55488 55</h5>
+                            <h5>+1 6678 254445 41</h5>
+                        </div>
+                        <div class="details">
+                            <i class="fa-solid fa-envelope"></i>
+                            <h2>Email Us</h2>
+                            <h5>info@example.com</h5>
+                            <h5>contact@example.com</h5>
+                        </div>
+                        <div class="details">
+                            <i class="fa-solid fa-clock"></i>
+                            <h2>Open Hours</h2>
+                            <h5>Monday - Friday</h5>
+                            <h5>9:00AM - 05:00PM</h5>
+                        </div>
+                    </div>
+                    <div class="contact-form">
+                        <div class="form-input">
+                            <input autocomplete="off" type="text" name="name" placeholder="Your Name">
+                            <input autocomplete="off" type="email" name="email" placeholder="Your Email">
+                        </div>
+                        <div class="form-text">
+                            <input autocomplete="off" type="text" name="subject" placeholder="Subject">
+                        </div>
+                        <div class="form-text">
+                            <textarea name="message" placeholder="Message"></textarea>
+                        </div>
+                        <button>Send Message</button>    
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="object-center">
+                <div class="newsletter">
+                    <h3>Our Newsletter</h3>
+                    <h5>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</h5>
+                    <div class="subscribe">
+                        <input type="text">
+                        <button>Subscribe</button>
+                    </div>
+                </div>
+            </div>
+            <div class="main-footer-center">
+                <div class="main-footer">
+                    <div class="footer-about">
+                        <h1>FlexStart</h1>
+                        <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
+                    </div>
+                        <ul class="useful-links">
+                            <li>Useful Links</li>
+                            <li>Home</li>
+                            <li>About</li>
+                            <li>Services</li>
+                            <li>Terms of Services</li>
+                            <li>Privacy Policy</li>
+                        </ul>
+                        <ul class="our-services">
+                            <li>Our Services</li>
+                            <li>Home</li>
+                            <li>About</li>
+                            <li>Services</li>
+                            <li>Terms of Services</li>
+                            <li>Privacy Policy</li>
+                        </ul>
+                        <ul class="contact-us-footer">
+                            <li>Contact Us</li>
+                            <p>A108 Adam Street
+                                New York, NY 535022
+                                United States
+                                </p>
+                            <h5><b>Phone:</b> +1 5589 55488 55</h5>
+                            <h5><b>Email:</b> info@example.com</h5>
+                        </ul>
+                </div>
+            </div>
+        </footer>
+    </main>
+</body>
+</html>
